@@ -1,0 +1,4 @@
+language: java
+script: mvn clean deploy --settings settings.xml -Dmaven.test.skip=true
+addons:
+  artifacts: true
